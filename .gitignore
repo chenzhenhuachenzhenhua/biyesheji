@@ -1,0 +1,7 @@
+src/.umi/umi.ts
+src/.umi/core/history.ts
+src/.umi/core/plugin.ts
+src/.umi/core/pluginConfig.d.ts
+src/.umi/core/pluginRegister.ts
+src/.umi/core/polyfill.ts
+src/.umi/core/routes.ts
