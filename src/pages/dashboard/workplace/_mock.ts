@@ -117,9 +117,21 @@ const salesTypeDataOffline = [
 
 const offlineData = [];
 for (let i = 0; i < 10; i += 1) {
+  // offlineData.push({
+  //   name: `Stores ${i}`,
+  //   cvr: Math.ceil(Math.random() * 5) / 10,
+  // });
   offlineData.push({
-    name: `Stores ${i}`,
-    cvr: Math.ceil(Math.random() * 9) / 10,
+    name: `任嘉敏1`,
+    cvr: 0.3,
+  });
+  offlineData.push({
+    name: `任嘉敏2`,
+    cvr: 0.4,
+  });
+  offlineData.push({
+    name: `任嘉敏3`,
+    cvr: 0.1,
   });
 }
 const offlineChartData = [];
