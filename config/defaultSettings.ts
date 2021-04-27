@@ -7,8 +7,8 @@ type DefaultSettings = Partial<ProSettings> & {
 const proSettings: DefaultSettings = {
   navTheme: 'dark',
   // 拂晓蓝
-  primaryColor: '#1890ff',
-  layout: 'side',
+  primaryColor: '#0d64aa',
+  layout: 'top',
   contentWidth: 'Fluid',
   fixedHeader: false,
   fixSiderbar: true,
