@@ -22,13 +22,63 @@ for (let i = 0; i < fakeY2.length; i += 1) {
   });
 }
 
-const salesData = [];
-for (let i = 0; i < 12; i += 1) {
-  salesData.push({
-    x: `${i + 1}月`,
-    y: Math.floor(Math.random() * 1000) + 200,
-  });
-}
+const salesData = [
+
+  {
+    x: '采矿业',
+    y: 81.5,
+  },
+  {
+    x: '公共管理、社会保障和社会组织',
+    y: 65.8,
+  },
+  {
+    x: '制造业',
+    y: 56.4,
+  },
+  {
+    x: '教育',
+    y: 55.2,
+  },
+  {
+    x: '金融业',
+    y: 30.0,
+  },
+  {
+    x: '建筑业',
+    y: 29.0,
+  },
+  {
+    x: '卫生和社会工作',
+    y: 24.7,
+  },
+  {
+    x: '交通运输、仓储和邮政业',
+    y: 21.1,
+  },
+  {
+    x: '电力、热力、燃气及水生产和供应业',
+    y: 15.8,
+  },
+  {
+    x: '批发和零售业',
+    y: 13.6,
+  },
+  {
+    x: '租赁和商务服务业',
+    y: 11.8,
+  },
+  {
+    x: '科学研究和技术服务业',
+    y: 7.7,
+  },
+];
+// for (let i = 0; i < 12; i += 1) {
+//   salesData.push({
+//     x: `${i + 1}月`,
+//     y: Math.floor(Math.random() * 1000) + 200,
+//   });
+// }
 const searchData = [];
 for (let i = 0; i < 50; i += 1) {
   searchData.push({
@@ -86,7 +136,18 @@ const salesTypeDataOnline = [
 ];
 
 const salesTypeDataOffline = [
-  6701 
+  {
+    x: '企业',
+    y: 16389870,
+  },
+  {
+    x: '事业',
+    y: 6303995,
+  },
+  {
+    x: '机关',
+    y: 2849305,
+  },
 ];
 
 const offlineData = [];
@@ -102,18 +163,51 @@ for (let i = 0; i < 10; i += 1) {
   //   cvr: Math.ceil(Math.random() * 5) / 10,
   // });
   offlineData.push({
-    name: `任嘉敏1`,
-    cvr: 0.3,
+    name: `太原市`,
+    cvr: 0.230,
   });
   offlineData.push({
-    name: `任嘉敏2`,
-    cvr: 0.4,
+    name: `大同市`,
+    cvr: 0.087,
   });
   offlineData.push({
-    name: `任嘉敏3`,
-    cvr: 0.1,
+    name: `阳泉市`,
+    cvr: 0.049,
+  });
+  offlineData.push({
+    name: `长治市`,
+    cvr: 0.104,
+  });
+  offlineData.push({
+    name: `晋城市`,
+    cvr: 0.084,
+  });
+  offlineData.push({
+    name: `朔州市`,
+    cvr: 0.043,
+  });
+  offlineData.push({
+    name: `晋中市`,
+    cvr: 0.085,
+  });
+  offlineData.push({
+    name: `运城市`,
+    cvr: 0.082,
+  });
+  offlineData.push({
+    name: `忻州市`,
+    cvr: 0.054,
+  });
+  offlineData.push({
+    name: `临汾市`,
+    cvr: 0.079,
+  });
+  offlineData.push({
+    name: `阳泉市`,
+    cvr: 0.079,
   });
 }
+
 const offlineChartData = [];
 for (let i = 0; i < 20; i += 1) {
   offlineChartData.push({
