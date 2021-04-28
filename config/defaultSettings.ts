@@ -13,7 +13,7 @@ const proSettings: DefaultSettings = {
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: '任佳敏毕业设计',
+  title: '任嘉敏毕业设计',
   pwa: false,
   iconfontUrl: '',
 };
