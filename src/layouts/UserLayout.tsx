@@ -55,7 +55,7 @@ const UserLayout: React.FC<UserLayoutProps> = (props) => {
             <div className={styles.desc}>
               <FormattedMessage
                 id="pages.layouts.userLayout.title"
-                defaultMessage="Ant Design 是西湖区最具影响力的 Web 设计规范"
+                defaultMessage="山西省职位数据分析系统的设计与实现"
               />
             </div>
           </div>

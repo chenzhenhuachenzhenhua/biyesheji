@@ -41,10 +41,10 @@ class CardList extends Component<CardListProps, CardListState> {
 
     const content = (
       <div className={styles.pageHeaderContent}>
-        <p>
+        {/* <p>
           段落示意：蚂蚁金服务设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，
           提供跨越设计与开发的体验解决方案。
-        </p>
+        </p> */}
         <div className={styles.contentLink}>
           <a>
             <img alt="" src="https://gw.alipayobjects.com/zos/rmsportal/MjEImQtenlyueSmVEfUD.svg" />{' '}

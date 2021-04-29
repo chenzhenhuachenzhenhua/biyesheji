@@ -26,7 +26,7 @@ export default {
   'dashboardandanalysis.channel.online': '線上',
   'dashboardandanalysis.channel.stores': '門店',
   'dashboardandanalysis.analysis.sales': '銷售額',
-  'dashboardandanalysis.analysis.traffic': '客流量',
+  'dashboardandanalysis.analysis.traffic': '平均工資',
   'dashboardandanalysis.table.rank': '排名',
   'dashboardandanalysis.table.search-keyword': '搜索關鍵詞',
   'dashboardandanalysis.table.users': '用戶數',

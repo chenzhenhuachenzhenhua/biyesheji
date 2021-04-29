@@ -56,11 +56,11 @@ const menuDataRender = (menuList: MenuDataItem[]): MenuDataItem[] =>
 
 const defaultFooterDom = (
   <DefaultFooter
-    copyright={`${new Date().getFullYear()} 蚂蚁集团体验技术部出品`}
+    // copyright={`${new Date().getFullYear()} 蚂蚁集团体验技术部出品`}
     links={[
       {
-        key: 'Ant Design Pro',
-        title: 'Ant Design Pro',
+        key: '毕业设计',
+        title: '毕业设计',
         href: 'https://pro.ant.design',
         blankTarget: true,
       },
@@ -71,8 +71,8 @@ const defaultFooterDom = (
         blankTarget: true,
       },
       {
-        key: 'Ant Design',
-        title: 'Ant Design',
+        key: '毕业设计',
+        title: '毕业设计',
         href: 'https://ant.design',
         blankTarget: true,
       },

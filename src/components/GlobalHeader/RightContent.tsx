@@ -48,7 +48,7 @@ const GlobalHeaderRight: React.SFC<GlobalHeaderRightProps> = (props) => {
             value: 'Pro Table',
           },
           {
-            label: <a href="https://prolayout.ant.design/">Pro Layout</a>,
+            label: <a href="https://prolayout./">Pro Layout</a>,
             value: 'Pro Layout',
           },
         ]} // onSearch={value => {

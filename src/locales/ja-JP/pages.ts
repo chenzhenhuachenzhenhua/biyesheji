@@ -1,5 +1,5 @@
 export default {
-  'pages.layouts.userLayout.title': 'Ant Designは、西湖区で最も影響力のあるWebデザイン仕様です。',
+  'pages.layouts.userLayout.title': '山西省の職位データ分析システムの設計と実現。',
   'pages.login.accountLogin.tab': 'アカウントログイン',
   'pages.login.accountLogin.errorMessage':
     'ユーザー名/パスワードが正しくありません（admin/ant.design)',
