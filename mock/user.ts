@@ -17,13 +17,13 @@ async function getFakeCaptcha(req: Request, res: Response) {
 export default {
   // 支持值为 Object 和 Array
   'GET /api/currentUser': {
-    name: 'Serati Ma',
+    name: 'renjiamin',
     avatar: 'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png',
     userid: '00000001',
-    email: 'antdesign@alipay.com',
+    email: '1015883843@qq.com',
     signature: '海纳百川，有容乃大',
-    title: '交互专家',
-    group: '蚂蚁集团－某某某事业群－某某平台部－某某技术部－UED',
+    title: '学生',
+    // group: '蚂蚁集团－某某某事业群－某某平台部－某某技术部－UED',
     tags: [
       {
         key: '0',
@@ -90,7 +90,7 @@ export default {
   'POST /api/login/account': async (req: Request, res: Response) => {
     const { password, userName, type } = req.body;
     await waitTime(2000);
-    if (password === 'ant.design' && userName === 'admin') {
+    if (password === '123456' && userName === 'admin') {
       res.send({
         status: 'ok',
         type,
@@ -98,7 +98,7 @@ export default {
       });
       return;
     }
-    if (password === 'ant.design' && userName === 'user') {
+    if (password === '123456' && userName === 'user') {
       res.send({
         status: 'ok',
         type,
