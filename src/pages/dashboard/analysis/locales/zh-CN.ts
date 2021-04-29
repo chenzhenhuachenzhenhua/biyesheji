@@ -20,7 +20,7 @@ export default {
   'dashboardandanalysis.analysis.all-day': '今日',
   'dashboardandanalysis.analysis.search-users': '搜索用户数',
   'dashboardandanalysis.analysis.per-capita-search': '人均搜索次数',
-  'dashboardandanalysis.analysis.online-top-search': '线上热门搜索',
+  'dashboardandanalysis.analysis.online-top-search': '工资情况排名',
   'dashboardandanalysis.analysis.the-proportion-of-sales': '就业类别占比',
   'dashboardandanalysis.channel.all': '2019年',
   'dashboardandanalysis.channel.online': '2018年',

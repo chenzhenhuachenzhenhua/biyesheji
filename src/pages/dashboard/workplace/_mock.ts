@@ -204,61 +204,61 @@ offlineData.push({
 });
 
 const offlineChartData = [];
-for (let i = 0; i < 20; i += 1) {
-  offlineChartData.push({
-    x: new Date().getTime() + 1000 * 60 * 30 * i,
-    y1: Math.floor(Math.random() * 100) + 10,
-    y2: Math.floor(Math.random() * 100) + 10,
-  });
-}
+// for (let i = 0; i < 20; i += 1) {
+//   offlineChartData.push({
+//     x: new Date().getTime() + 1000 * 60 * 30 * i,
+//     y1: Math.floor(1 * 100) + 10,
+//     y2: Math.floor(1 * 100) + 10,
+//   });
+// }
 
 
 
-// offlineChartData.push({
-//   x: `2012年`,
-//   y1: 39.23,
-//   y2: 40.97,
-// });
-// offlineChartData.push({
-//   x: `2013年`,
-//   y1: 44.24,
-//   y2: 43.60,
-// });
-// offlineChartData.push({
-//   x: `2014年`,
-//   y1: 46.41,
-//   y2: 42.52,
-// });
-// offlineChartData.push({
-//   x: `2015年`,
-//   y1: 48.97,
-//   y2: 45.21,
-// });
-// offlineChartData.push({
-//   x: `2016年`,
-//   y1: 51.80,
-//   y2: 44.03,
-// });
-// offlineChartData.push({
-//   x: `2017年`,
-//   y1: 53.71,
-//   y2: 43.06,
-// });
-// offlineChartData.push({
-//   x: `2018年`,
-//   y1: 60.06,
-//   y2: 42.87,
-// });
-// offlineChartData.push({
-//   x: `2019年`,
-//   y1: 65.92,
-//   y2: 42.58,
-// });
-// offlineChartData.push({
-//   x: `2020年`,
-//   y1: 69.55,
-//   y2: 44.11,
-// });
+offlineChartData.push({
+  x: new Date().getTime() + 1000 * 60 * 30 * 1,
+  y1: 39.23,
+  y2: 40.97,
+});
+offlineChartData.push({
+  x: new Date().getTime() + 1000 * 60 * 30 * 2,
+  y1: 44.24,
+  y2: 43.60,
+});
+offlineChartData.push({
+  x: new Date().getTime() + 1000 * 60 * 30 * 3,
+  y1: 46.41,
+  y2: 42.52,
+});
+offlineChartData.push({
+  x: new Date().getTime() + 1000 * 60 * 30 * 4,
+  y1: 48.97,
+  y2: 45.21,
+});
+offlineChartData.push({
+  x: new Date().getTime() + 1000 * 60 * 30 * 5,
+  y1: 51.80,
+  y2: 44.03,
+});
+offlineChartData.push({
+  x: new Date().getTime() + 1000 * 60 * 30 * 6,
+  y1: 53.71,
+  y2: 43.06,
+});
+offlineChartData.push({
+  x: new Date().getTime() + 1000 * 60 * 30 * 7,
+  y1: 60.06,
+  y2: 42.87,
+});
+offlineChartData.push({
+  x: new Date().getTime() + 1000 * 60 * 30 * 8,
+  y1: 65.92,
+  y2: 42.58,
+});
+offlineChartData.push({
+  x: new Date().getTime() + 1000 * 60 * 30 * 9,
+  y1: 69.55,
+  y2: 44.11,
+});
 
 
 
