@@ -206,14 +206,14 @@ class Analysis extends Component<AnalysisProps, AnalysisState> {
               />
             </Col>
           </Row>
-          {/* <OfflineData
+          <OfflineData
             activeKey={activeKey}
             loading={loading}
             offlineData={offlineData}
             offlineChartData={offlineChartData}
             handleTabChange={this.handleTabChange}
-          /> */}
-          <Card  title="山西省就业情况概述" bordered={true} style={{ marginBottom: 24 }}>
+          />
+          <Card  title="山西省就业情况概述" bordered={true} style={{ marginTop: 24 }}>
           <Line {...config} />
           </Card>
         </React.Fragment>
