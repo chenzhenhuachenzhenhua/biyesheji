@@ -150,7 +150,7 @@ const SalesCard = ({
             </Col>
           </Row>
           <Row>
-          <Col xl={8} lg={12} md={12} sm={12} xs={12}>
+          <Col xl={12} lg={12} md={12} sm={12} xs={12}>
               <div className={styles.salesRank}>
                 <h4 className={styles.rankingTitle}>
                   <FormattedMessage
@@ -170,6 +170,30 @@ const SalesCard = ({
                       <span className={styles.rankingItemValue}>
                         {numeral(item.total).format('0,0')}
                       </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Col>
+            
+            <Col xl={12} lg={12} md={12} sm={12} xs={12}>
+              <div className={styles.salesRank}>
+                <h4 className={styles.rankingTitle}>
+                  <FormattedMessage
+                    id="dashboardandanalysis.analysis.visits-ranking"
+                    defaultMessage="Visits Ranking"
+                  />
+                </h4>
+                <ul className={styles.rankingList}>
+                  {rankingListData.map((item, i) => (
+                    <li key={item.title}>
+                      <span className={`${styles.rankingItemNumber} ${i < 3 ? styles.active : ''}`}>
+                        {i + 1}
+                      </span>
+                      <span className={styles.rankingItemTitle} title={item.title}>
+                        {item.title}
+                      </span>
+                      <span>{numeral(item.total).format('0,0')}</span>
                     </li>
                   ))}
                 </ul>
@@ -200,7 +224,7 @@ const SalesCard = ({
             </Col>
             
           </Row>
-          <Row>
+          {/* <Row>
           <Col xl={8} lg={12} md={12} sm={24} xs={24}>
               <div className={styles.salesRank}>
                 <h4 className={styles.rankingTitle}>
@@ -224,7 +248,7 @@ const SalesCard = ({
                 </ul>
               </div>
             </Col>
-          </Row>
+          </Row> */}
         </TabPane>
       </Tabs>
     </div>

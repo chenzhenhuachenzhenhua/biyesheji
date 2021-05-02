@@ -159,15 +159,15 @@ class Analysis extends Component<AnalysisProps, AnalysisState> {
       yField: 'value',
       seriesField: 'category',
       xAxis: { type: 'time' },
-      yAxis: {
-        label: {
-          formatter: function formatter(v) {
-            return ''.concat(v).replace(/\d{1,3}(?=(\d{3})+$)/g, function (s) {
-              return ''.concat(s, ',');
-            });
-          },
-        },
-      },
+      // yAxis: {
+      //   label: {
+      //     formatter: function formatter(v) {
+      //       return ''.concat(v).replace(/\d{1,3}(?=(\d{3})+$)/g, function (s) {
+      //         return ''.concat(s, ',');
+      //       });
+      //     },
+      //   },
+      // },
     };
   
     return (
