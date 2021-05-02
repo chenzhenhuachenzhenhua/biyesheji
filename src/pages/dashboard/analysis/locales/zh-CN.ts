@@ -3,7 +3,7 @@ export default {
   'dashboardandanalysis.analysis.introduce': '指标说明',
   'dashboardandanalysis.analysis.total-sales': '山西省总人數',
   'dashboardandanalysis.analysis.day-sales': '年同比',
-  'dashboardandanalysis.analysis.visits': '工资',
+  'dashboardandanalysis.analysis.visits': '山西省平均工资',
   'dashboardandanalysis.analysis.visits-trend': '工资情况',
   'dashboardandanalysis.analysis.visits-ranking': '工资情况排名',
   'dashboardandanalysis.analysis.day-visits': '年同比',
