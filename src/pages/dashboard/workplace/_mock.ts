@@ -91,7 +91,7 @@ const searchData = [];
   });
   searchData.push({
     index: 2,
-    keyword: `大同`,
+    keyword: `大同市`,
     count: 67181,
     range: 7.79,
     // status: Math.floor((Math.random() * 10) % 2),
