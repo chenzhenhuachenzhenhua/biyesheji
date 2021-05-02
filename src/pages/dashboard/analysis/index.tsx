@@ -1,5 +1,5 @@
 import { EllipsisOutlined } from '@ant-design/icons';
-import { Col, Dropdown, Menu, Row } from 'antd';
+import { Card, Col, Dropdown, Menu, Row } from 'antd';
 import React, { Component } from 'react';
 import { GridContent } from '@ant-design/pro-layout';
 import type { RadioChangeEvent } from 'antd/es/radio';
@@ -17,6 +17,7 @@ import SalesCard from './components/SalesCard';
 import TopSearch from './components/TopSearch';
 import ProportionSales from './components/ProportionSales';
 import OfflineData from './components/OfflineData';
+import { Line } from '@ant-design/charts';
 
 type RangePickerValue = RangePickerProps<moment.Moment>['value'];
 
@@ -152,6 +153,23 @@ class Analysis extends Component<AnalysisProps, AnalysisState> {
     );
 
     const activeKey = currentTabKey || (offlineData[0] && offlineData[0].name);
+    var config = {
+      data: offlineChartData,
+      xField: 'year',
+      yField: 'value',
+      seriesField: 'category',
+      xAxis: { type: 'time' },
+      yAxis: {
+        label: {
+          formatter: function formatter(v) {
+            return ''.concat(v).replace(/\d{1,3}(?=(\d{3})+$)/g, function (s) {
+              return ''.concat(s, ',');
+            });
+          },
+        },
+      },
+    };
+  
     return (
       <GridContent>
         <React.Fragment>
@@ -188,13 +206,16 @@ class Analysis extends Component<AnalysisProps, AnalysisState> {
               />
             </Col>
           </Row>
-          <OfflineData
+          {/* <OfflineData
             activeKey={activeKey}
             loading={loading}
             offlineData={offlineData}
             offlineChartData={offlineChartData}
             handleTabChange={this.handleTabChange}
-          />
+          /> */}
+          <Card  title="标题" bordered={true} style={{ marginTop: 24 }}>
+          <Line {...config} />
+          </Card>
         </React.Fragment>
       </GridContent>
     );
