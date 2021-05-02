@@ -213,7 +213,7 @@ class Analysis extends Component<AnalysisProps, AnalysisState> {
             offlineChartData={offlineChartData}
             handleTabChange={this.handleTabChange}
           /> */}
-          <Card  title="标题" bordered={true} style={{ marginTop: 24 }}>
+          <Card  title="山西省就业情况概述" bordered={true} style={{ marginBottom: 24 }}>
           <Line {...config} />
           </Card>
         </React.Fragment>
