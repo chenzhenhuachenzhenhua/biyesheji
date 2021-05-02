@@ -81,15 +81,84 @@ const salesData = [
 //   });
 // }
 const searchData = [];
-for (let i = 0; i < 50; i += 1) {
+// for (let i = 0; i < 50; i += 1) {
   searchData.push({
-    index: i + 1,
-    keyword: `搜索关键词-${i}`,
-    count: Math.floor(Math.random() * 1000),
-    range: Math.floor(Math.random() * 100),
-    status: Math.floor((Math.random() * 10) % 2),
+    index: 1,
+    keyword: `太原市`,
+    count: 80060,
+    range: 1.47,
+    // status: Math.floor((Math.random() * 10) % 2),
   });
-}
+  searchData.push({
+    index: 2,
+    keyword: `大同`,
+    count: 67181,
+    range: 7.79,
+    // status: Math.floor((Math.random() * 10) % 2),
+  });
+  searchData.push({
+    index: 3,
+    keyword: `吕梁市`,
+    count: 66739,
+    range: 2.69,
+    // status: Math.floor((Math.random() * 10) % 2),
+  });
+  searchData.push({
+    index: 4,
+    keyword: `晋城市`,
+    count: 66277,
+    range: 2.24,
+    // status: Math.floor((Math.random() * 10) % 2),
+  });
+  searchData.push({
+    index: 5,
+    keyword: `朔州市`,
+    count: 66205,
+    range: 4.80,
+    // status: Math.floor((Math.random() * 10) % 2),
+  });
+  searchData.push({
+    index: 6,
+    keyword: `晋中市`,
+    count: 65199,
+    range: 2.54,
+    // status: Math.floor((Math.random() * 10) % 2),
+  });
+  searchData.push({
+    index: 7,
+    keyword: `长治市`,
+    count: 64100,
+    range: 7.03,
+    // status: Math.floor((Math.random() * 10) % 2),
+  });
+  searchData.push({
+    index: 8,
+    keyword: `阳泉市`,
+    count: 63788,
+    range: 5.05,
+    // status: Math.floor((Math.random() * 10) % 2),
+  });
+  searchData.push({
+    index: 9,
+    keyword: `忻州市`,
+    count: 63496,
+    range: 14.05,
+    // status: Math.floor((Math.random() * 10) % 2),
+  });
+  searchData.push({
+    index: 10,
+    keyword: `临汾市`,
+    count: 62279,
+    range: 2.05,
+    // status: Math.floor((Math.random() * 10) % 2),
+  });
+  searchData.push({
+    index: 11,
+    keyword: `运城市`,
+    count: 58118,
+    range: 2.28,
+    status: 1,
+  });
 const salesTypeData = [
   {
     x: '企业',
