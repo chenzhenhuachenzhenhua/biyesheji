@@ -43,7 +43,7 @@ const IntroduceRow = ({ loading, visitData }: { loading: boolean; visitData: Vis
           </Tooltip>
         }
         loading={loading}
-        total={() => <Yuan>126560</Yuan>}
+        total={() => <Yuan>37292200</Yuan>}
         footer={
           <Field
             label={
@@ -52,21 +52,21 @@ const IntroduceRow = ({ loading, visitData }: { loading: boolean; visitData: Vis
                 defaultMessage="Daily Sales"
               />
             }
-            value={`￥${numeral(12423).format('0,0')}`}
+            value={`3.27%`}
           />
         }
         contentHeight={46}
       >
         <Trend flag="up" style={{ marginRight: 16 }}>
           <FormattedMessage
-            id="dashboardandanalysis.analysis.week"
-            defaultMessage="Weekly Changes"
+            id="出生率"
+            defaultMessage="出生率"
           />
-          <span className={styles.trendText}>12%</span>
+          <span className={styles.trendText}>9.12%</span>
         </Trend>
         <Trend flag="down">
-          <FormattedMessage id="dashboardandanalysis.analysis.day" defaultMessage="Daily Changes" />
-          <span className={styles.trendText}>11%</span>
+          <FormattedMessage id="死亡率" defaultMessage="死亡率" />
+          <span className={styles.trendText}>5.85%</span>
         </Trend>
       </ChartCard>
     </Col>
@@ -90,7 +90,7 @@ const IntroduceRow = ({ loading, visitData }: { loading: boolean; visitData: Vis
             <InfoCircleOutlined />
           </Tooltip>
         }
-        total={numeral(8846).format('0,0')}
+        total={numeral(69551).format('0,0')}
         footer={
           <Field
             label={
@@ -99,7 +99,7 @@ const IntroduceRow = ({ loading, visitData }: { loading: boolean; visitData: Vis
                 defaultMessage="Daily Visits"
               />
             }
-            value={numeral(1234).format('0,0')}
+            value={`5.51%`}
           />
         }
         contentHeight={46}
@@ -126,7 +126,7 @@ const IntroduceRow = ({ loading, visitData }: { loading: boolean; visitData: Vis
             <InfoCircleOutlined />
           </Tooltip>
         }
-        total={numeral(6560).format('0,0')}
+        total={numeral(19025000).format('0,0')}
         footer={
           <Field
             label={
@@ -134,10 +134,16 @@ const IntroduceRow = ({ loading, visitData }: { loading: boolean; visitData: Vis
                 id="dashboardandanalysis.analysis.conversion-rate"
                 defaultMessage="Conversion Rate"
               />
+              
             }
-            value="60%"
+            value="51%"
           />
+          
+          
         }
+       
+
+      
         contentHeight={46}
       >
         <MiniBar data={visitData} />
@@ -165,22 +171,22 @@ const IntroduceRow = ({ loading, visitData }: { loading: boolean; visitData: Vis
             <InfoCircleOutlined />
           </Tooltip>
         }
-        total="78%"
+        total={numeral(239000).format('0,0')}
         footer={
           <div style={{ whiteSpace: 'nowrap', overflow: 'hidden' }}>
             <Trend flag="up" style={{ marginRight: 16 }}>
               <FormattedMessage
-                id="dashboardandanalysis.analysis.week"
-                defaultMessage="Weekly Changes"
+                id="失业率"
+                defaultMessage="失业率"
               />
-              <span className={styles.trendText}>12%</span>
+              <span className={styles.trendText}>2.7%</span>
             </Trend>
             <Trend flag="down">
               <FormattedMessage
-                id="dashboardandanalysis.analysis.day"
-                defaultMessage="Weekly Changes"
+                id="年同比"
+                defaultMessage="年同比"
               />
-              <span className={styles.trendText}>11%</span>
+              <span className={styles.trendText}>0.4%</span>
             </Trend>
           </div>
         }
