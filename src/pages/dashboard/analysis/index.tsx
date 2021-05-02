@@ -145,9 +145,9 @@ class Analysis extends Component<AnalysisProps, AnalysisState> {
 
     const dropdownGroup = (
       <span className={styles.iconGroup}>
-        <Dropdown overlay={menu} placement="bottomRight">
+        {/* <Dropdown overlay={menu} placement="bottomRight">
           <EllipsisOutlined />
-        </Dropdown>
+        </Dropdown> */}
       </span>
     );
 
