@@ -86,12 +86,12 @@ export default defineConfig({
                   path: '/dashboard/analysis',
                   component: './dashboard/analysis',
                 },
-                // {
-                //   name: 'monitor',
-                //   icon: 'smile',
-                //   path: '/dashboard/monitor',
-                //   component: './dashboard/monitor',
-                // },
+                {
+                  name: 'monitor',
+                  icon: 'smile',
+                  path: '/dashboard/monitor',
+                  component: './dashboard/monitor',
+                },
                 // {
                 //   name: 'workplace',
                 //   icon: 'smile',
