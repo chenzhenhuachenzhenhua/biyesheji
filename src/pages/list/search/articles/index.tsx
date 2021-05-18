@@ -222,7 +222,7 @@ const Articles: FC<ArticlesProps> = ({ dispatch, listAndsearchAndarticles: { lis
                 }
                 description={
                   <span>
-                    <Tag>Ant Design</Tag>
+                    <Tag>毕业设计</Tag>
                     <Tag>设计语言</Tag>
                     {/* <Tag>蚂蚁金服</Tag> */}
                   </span>

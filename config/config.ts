@@ -73,7 +73,7 @@ export default defineConfig({
             },
             {
               path: '/dashboard',
-              name: '山西省总体情况',
+              name: 'OverallSituation',
               icon: 'dashboard',
               routes: [
                 {
@@ -81,7 +81,7 @@ export default defineConfig({
                   redirect: '/dashboard/analysis',
                 },
                 {
-                  name: '山西省就业概述',
+                  name: 'JobOverview',
                   icon: 'smile',
                   path: '/dashboard/analysis',
                   component: './dashboard/analysis',
@@ -93,10 +93,16 @@ export default defineConfig({
                   component: './dashboard/monitor',
                 },
                 {
-                  name: '分析页',
+                  name: 'JobCatrgory',
                   icon: 'smile',
                   path: '/dashboard/category',
                   component: './dashboard/Category',
+                },
+                {
+                  name: 'AverageWage',
+                  icon: 'smile',
+                  path: '/dashboard/averagewage',
+                  component: './dashboard/AverageWage',
                 },
               ],
             }, // {

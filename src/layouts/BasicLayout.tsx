@@ -59,7 +59,7 @@ const defaultFooterDom = (
     copyright={`${new Date().getFullYear()} 山西省职位数据分析系统的设计与实现`}
     links={[
       {
-        key: '毕业设计',
+        key: 'key1',
         title: '毕业设计',
         href: 'https://pro.ant.design',
         blankTarget: true,
@@ -71,7 +71,7 @@ const defaultFooterDom = (
         blankTarget: true,
       },
       {
-        key: '毕业设计',
+        key: 'key2',
         title: '毕业设计',
         href: 'https://ant.design',
         blankTarget: true,

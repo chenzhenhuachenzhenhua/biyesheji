@@ -58,14 +58,16 @@ const IntroduceRow = ({ loading, visitData }: { loading: boolean; visitData: Vis
         contentHeight={46}
       >
         <Trend flag="up" style={{ marginRight: 16 }}>
-          <FormattedMessage
+          {/* <FormattedMessage
             id="出生率"
             defaultMessage="出生率"
-          />
+          /> */}
+          {"出生率"}
           <span className={styles.trendText}>9.12%</span>
         </Trend>
         <Trend flag="down">
-          <FormattedMessage id="死亡率" defaultMessage="死亡率" />
+          {/* <FormattedMessage id="死亡率" defaultMessage="死亡率" /> */}
+          {"死亡率"}
           <span className={styles.trendText}>5.85%</span>
         </Trend>
       </ChartCard>
@@ -175,17 +177,19 @@ const IntroduceRow = ({ loading, visitData }: { loading: boolean; visitData: Vis
         footer={
           <div style={{ whiteSpace: 'nowrap', overflow: 'hidden' }}>
             <Trend flag="up" style={{ marginRight: 16 }}>
-              <FormattedMessage
+              {/* <FormattedMessage
                 id="失业率"
                 defaultMessage="失业率"
-              />
+              /> */}
+              {"失业率"}
               <span className={styles.trendText}>2.7%</span>
             </Trend>
             <Trend flag="down">
-              <FormattedMessage
+              {/* <FormattedMessage
                 id="年同比"
                 defaultMessage="年同比"
-              />
+              /> */}
+              {"年同比"}
               <span className={styles.trendText}>0.4%</span>
             </Trend>
           </div>

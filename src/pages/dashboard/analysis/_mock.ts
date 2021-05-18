@@ -142,7 +142,7 @@ const searchData = [];
   });
   searchData.push({
     index: 8,
-    keyword: `阳泉市`,
+    keyword: `阳泉市1`,
     count: 63788,
     range: 5.05,
     // status: Math.floor((Math.random() * 10) % 2),
@@ -282,7 +282,7 @@ for (let i = 0; i < 10; i += 1) {
     cvr: 0.079,
   });
   offlineData.push({
-    name: `阳泉市`,
+    name: `吕梁市`,
     cvr: 0.079,
   });
 }

@@ -49,4 +49,9 @@ export default {
   'menu.editor.flow': '流程编辑器',
   'menu.editor.mind': '脑图编辑器',
   'menu.editor.koni': '拓扑编辑器',
+  'menu.OverallSituation': '山西省总体情况',
+  'menu.OverallSituation.JobOverview': '山西省就业概述',
+  'menu.OverallSituation.monitor': '工作台',
+  'menu.OverallSituation.JobCatrgory': '山西省就业类别情况',
+  'menu.OverallSituation.AverageWage': '山西省就业工资情况',
 };

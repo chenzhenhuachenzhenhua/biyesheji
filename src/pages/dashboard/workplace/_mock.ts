@@ -52,7 +52,7 @@ const salesData = [
     y: 24.7,
   },
   {
-    x: '交通运输、仓储和邮政业',
+    x: '交通运输1、仓储和邮政业',
     y: 21.1,
   },
   {
@@ -72,6 +72,56 @@ const salesData = [
     y: 7.7,
   },
 
+];
+const averageWageData = [
+  {
+    x: '采矿业111',
+    y: 81.5,
+  },
+  {
+    x: '公共管理、社会保障和社会组织',
+    y: 65.8,
+  },
+  {
+    x: '制造业',
+    y: 56.4,
+  },
+  {
+    x: '教育',
+    y: 55.2,
+  },
+  {
+    x: '金融业',
+    y: 30.0,
+  },
+  {
+    x: '建筑业',
+    y: 29.0,
+  },
+  {
+    x: '卫生和社会工作',
+    y: 24.7,
+  },
+  {
+    x: '交通运输1、仓储和邮政业',
+    y: 21.1,
+  },
+  {
+    x: '电力、热力、燃气及水生产和供应业',
+    y: 15.8,
+  },
+  {
+    x: '批发和零售业',
+    y: 13.6,
+  },
+  {
+    x: '租赁和商务服务业',
+    y: 11.8,
+  },
+  {
+    x: '科学研究和技术服务业',
+    y: 7.7,
+  },
 
 ];
 // for (let i = 0; i < 12; i += 1) {
@@ -268,7 +318,7 @@ offlineData.push({
   cvr: 0.079,
 });
 offlineData.push({
-  name: `阳泉市`,
+  name: `吕梁市`,
   cvr: 0.079,
 });
 
@@ -751,6 +801,19 @@ export default {
     salesTypeDataOnline,
     salesTypeDataOffline,
     radarData,
+  },
+  'GET  /api/fake_chart_data_average': {
+    visitData,
+    visitData2,
+    salesData,
+    searchData,
+    offlineData,
+    offlineChartData,
+    salesTypeData,
+    salesTypeDataOnline,
+    salesTypeDataOffline,
+    radarData,
+    averageWageData
   },
 
   'GET  /api/currentUser': {
