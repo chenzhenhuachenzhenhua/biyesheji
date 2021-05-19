@@ -8,7 +8,7 @@ const proSettings: DefaultSettings = {
   navTheme: 'light',
   // 拂晓蓝
   primaryColor: '#0d64aa',
-  layout: 'top',
+  layout: 'side',
   contentWidth: 'Fluid',
   fixedHeader: false,
   fixSiderbar: true,

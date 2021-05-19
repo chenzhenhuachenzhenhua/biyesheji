@@ -105,7 +105,8 @@ export default defineConfig({
                   component: './dashboard/AverageWage',
                 },
               ],
-            }, // {
+            }, 
+            // {
             //   path: '/form',
             //   icon: 'form',
             //   name: 'form',
