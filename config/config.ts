@@ -105,7 +105,31 @@ export default defineConfig({
                   component: './dashboard/AverageWage',
                 },
               ],
-            }, // {
+            },
+            {
+              path: '/dashboardcity',
+              name: 'CityOverview',
+              icon: 'dashboard',
+              routes: [
+                {
+                  path: '/',
+                  redirect: '/dashboard/analysis',
+                },
+                // {
+                //   name: 'Summary',
+                //   icon: 'smile',
+                //   path: '/dashboardcity/summary',
+                //   component: './dashboardcity/Summary',
+                // },
+                // {
+                //   name: '分析页',
+                //   icon: 'smile',
+                //   path: '/dashboardcity/category',
+                //   component: './dashboardcity/Category',
+                // },
+              ],
+            }, 
+            // {
             //   path: '/form',
             //   icon: 'form',
             //   name: 'form',
