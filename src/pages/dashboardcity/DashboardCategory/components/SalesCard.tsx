@@ -13,12 +13,66 @@ const { RangePicker } = DatePicker;
 const { TabPane } = Tabs;
 
 const rankingListData: { title: string; total: number }[] = [];
-for (let i = 0; i < 7; i += 1) {
-  rankingListData.push({
-    title: formatMessage({ id: 'dashboardcityanddashboardcategory.analysis.test' }, { no: i }),
-    total: 323234,
+// for (let i = 0; i < 7; i += 1) {
+//   rankingListData.push({
+//     title: formatMessage({ id: 'dashboardcityanddashboardcategory.analysis.test' }, { no: i }),
+//     total: 323234,
+//   });
+// }
+rankingListData.push({
+  title: '批发和零售业' ,
+  total: 58,
   });
-}
+rankingListData.push({
+  title: '制造业' ,
+  total: 29,
+  });
+
+rankingListData.push({
+  title: '建筑业' ,
+  total: 21,
+  });
+rankingListData.push({
+  title: '交通运输、仓储和邮政业' ,
+  total: 12,
+  });
+
+rankingListData.push({
+  title: '租赁和商务服务业' ,
+  total: 10,
+  });
+rankingListData.push({
+  title: '教育' ,
+  total: 10,
+  });
+rankingListData.push({
+  title: '公共管理、社会保障和社会组织' ,
+  total: 9,
+  });
+rankingListData.push({
+  title: '金融业' ,
+  total: 8,
+  });
+rankingListData.push({
+  title: '科学研究和技术服务业' ,
+  total: 8,
+  });   
+rankingListData.push({
+  title: '采矿业' ,
+  total: 7,
+});
+
+
+rankingListData.push({
+title: '卫生和社会工作' ,
+total: 6,
+});
+
+rankingListData.push({
+title: '电力、热力、燃气及水生产和供应' ,
+total: 6,
+});
+
 
 type RangePickerValue = RangePickerProps<moment.Moment>['value'];
 
@@ -42,7 +96,7 @@ const SalesCard = ({
       <Tabs
         tabBarExtraContent={
           <div className={styles.salesExtraWrap}>
-            <div className={styles.salesExtra}>
+            {/* <div className={styles.salesExtra}>
               <a className={isActive('today')} onClick={() => selectDate('today')}>
                 <FormattedMessage id="dashboardcityanddashboardcategory.analysis.all-day" defaultMessage="All Day" />
               </a>
@@ -60,7 +114,7 @@ const SalesCard = ({
               value={rangePickerValue}
               onChange={handleRangePickerChange}
               style={{ width: 256 }}
-            />
+            /> */}
           </div>
         }
         size="large"
@@ -71,7 +125,7 @@ const SalesCard = ({
           key="sales"
         >
           <Row>
-            <Col xl={16} lg={12} md={12} sm={24} xs={24}>
+            <Col xl={24} lg={24} md={24} sm={24} xs={24}>
               <div className={styles.salesBar}>
                 <Bar
                   height={295}
@@ -85,7 +139,7 @@ const SalesCard = ({
                 />
               </div>
             </Col>
-            <Col xl={8} lg={12} md={12} sm={24} xs={24}>
+            <Col xl={8} lg={24} md={24} sm={24} xs={24}>
               <div className={styles.salesRank}>
                 <h4 className={styles.rankingTitle}>
                   <FormattedMessage
@@ -112,7 +166,7 @@ const SalesCard = ({
             </Col>
           </Row>
         </TabPane>
-        <TabPane
+        {/* <TabPane
           tab={<FormattedMessage id="dashboardcityanddashboardcategory.analysis.visits" defaultMessage="Visits" />}
           key="views"
         >
@@ -155,7 +209,7 @@ const SalesCard = ({
               </div>
             </Col>
           </Row>
-        </TabPane>
+        </TabPane> */}
       </Tabs>
     </div>
   </Card>

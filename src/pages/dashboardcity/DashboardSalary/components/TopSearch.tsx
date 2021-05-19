@@ -69,7 +69,7 @@ const TopSearch = ({
       height: '100%',
     }}
   >
-    <Row gutter={68}>
+    {/* <Row gutter={68}>
       <Col sm={12} xs={24} style={{ marginBottom: 24 }}>
         <NumberInfo
           subTitle={
@@ -118,7 +118,7 @@ const TopSearch = ({
         />
         <MiniArea line height={45} data={visitData2} />
       </Col>
-    </Row>
+    </Row> */}
     <Table<any>
       rowKey={(record) => record.index}
       size="small"
@@ -126,7 +126,7 @@ const TopSearch = ({
       dataSource={searchData}
       pagination={{
         style: { marginBottom: 0 },
-        pageSize: 5,
+        pageSize: 15,
       }}
     />
   </Card>

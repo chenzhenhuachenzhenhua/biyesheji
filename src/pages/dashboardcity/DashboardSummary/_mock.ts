@@ -118,10 +118,55 @@ const salesTypeDataOffline = [
 
 const offlineData = [];
 for (let i = 0; i < 10; i += 1) {
-  offlineData.push({
-    name: `Stores ${i}`,
-    cvr: Math.ceil(Math.random() * 9) / 10,
-  });
+//   offlineData.push({
+//     name: `Stores ${i}`,
+//     cvr: Math.ceil(Math.random() * 9) / 10,
+//   });
+// }
+offlineData.push({
+  name: `太原市`,
+  cvr: 0.230,
+});
+offlineData.push({
+  name: `大同市`,
+  cvr: 0.087,
+});
+offlineData.push({
+  name: `阳泉市`,
+  cvr: 0.049,
+});
+offlineData.push({
+  name: `长治市`,
+  cvr: 0.104,
+});
+offlineData.push({
+  name: `晋城市`,
+  cvr: 0.084,
+});
+offlineData.push({
+  name: `朔州市`,
+  cvr: 0.043,
+});
+offlineData.push({
+  name: `晋中市`,
+  cvr: 0.085,
+});
+offlineData.push({
+  name: `运城市`,
+  cvr: 0.082,
+});
+offlineData.push({
+  name: `忻州市`,
+  cvr: 0.054,
+});
+offlineData.push({
+  name: `临汾市`,
+  cvr: 0.079,
+});
+offlineData.push({
+  name: `吕梁市`,
+  cvr: 0.079,
+});
 }
 const offlineChartData = [];
 for (let i = 0; i < 20; i += 1) {

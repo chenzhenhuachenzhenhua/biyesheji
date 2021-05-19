@@ -157,7 +157,7 @@ class DashboardCategory extends Component<
     return (
       <GridContent>
         <React.Fragment>
-          <IntroduceRow loading={loading} visitData={visitData} />
+          {/* <IntroduceRow loading={loading} visitData={visitData} /> */}
           <SalesCard
             rangePickerValue={rangePickerValue}
             salesData={salesData}
@@ -166,7 +166,7 @@ class DashboardCategory extends Component<
             loading={loading}
             selectDate={this.selectDate}
           />
-          <Row
+          {/* <Row
             gutter={24}
             style={{
               marginTop: 24,
@@ -196,7 +196,7 @@ class DashboardCategory extends Component<
             offlineData={offlineData}
             offlineChartData={offlineChartData}
             handleTabChange={this.handleTabChange}
-          />
+          /> */}
         </React.Fragment>
       </GridContent>
     );

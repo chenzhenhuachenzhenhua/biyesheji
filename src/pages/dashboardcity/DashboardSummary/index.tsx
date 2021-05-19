@@ -157,8 +157,8 @@ class DashboardSummary extends Component<
     return (
       <GridContent>
         <React.Fragment>
-          <IntroduceRow loading={loading} visitData={visitData} />
-          <SalesCard
+          {/* <IntroduceRow loading={loading} visitData={visitData} /> */}
+          {/* <SalesCard
             rangePickerValue={rangePickerValue}
             salesData={salesData}
             isActive={this.isActive}
@@ -189,7 +189,7 @@ class DashboardSummary extends Component<
                 handleChangeSalesType={this.handleChangeSalesType}
               />
             </Col>
-          </Row>
+          </Row> */}
           <OfflineData
             activeKey={activeKey}
             loading={loading}

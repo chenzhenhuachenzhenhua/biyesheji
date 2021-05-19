@@ -117,19 +117,19 @@ export default defineConfig({
                   redirect: '/dashboard/dashboardsummary',
                 },
                 {
-                  name: '总结概述',
+                  name: 'Summary',
                   icon: 'smile',
                   path: '/dashboardcity/dashboardsummary',
                   component: './dashboardcity/DashboardSummary',
                 },
                 {
-                  name: '类别',
+                  name: 'Category',
                   icon: 'smile',
                   path: '/dashboardcity/dashboardcategory',
                   component: './dashboardcity/DashboardCategory',
                 },
                 {
-                  name: '工资',
+                  name: 'Salary',
                   icon: 'smile',
                   path: '/dashboardcity/dashboardsalary',
                   component: './dashboardcity/DashboardSalary',

@@ -54,4 +54,8 @@ export default {
   'menu.OverallSituation.monitor': '工作台',
   'menu.OverallSituation.JobCatrgory': '山西省就业类别情况',
   'menu.OverallSituation.AverageWage': '山西省就业工资情况',
+  'menu.CityOverview': '山西省各市区情况',
+  'menu.CityOverview.Summary': '山西省各市区就业概述',
+  'menu.CityOverview.Category': '山西省各市区就业类别情况',
+  'menu.CityOverview.Salary': '山西省各市区就业平均工资情况',
 };
