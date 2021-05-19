@@ -104,6 +104,7 @@ export default defineConfig({
                   path: '/dashboard/averagewage',
                   component: './dashboard/AverageWage',
                 },
+                
               ],
             },
             {
@@ -113,23 +114,28 @@ export default defineConfig({
               routes: [
                 {
                   path: '/',
-                  redirect: '/dashboard/analysis',
+                  redirect: '/dashboard/dashboardsummary',
                 },
-                // {
-                //   name: 'Summary',
-                //   icon: 'smile',
-                //   path: '/dashboardcity/summary',
-                //   component: './dashboardcity/Summary',
-                // },
-                // {
-                //   name: '分析页',
-                //   icon: 'smile',
-                //   path: '/dashboardcity/category',
-                //   component: './dashboardcity/Category',
-                // },
+                {
+                  name: '总结概述',
+                  icon: 'smile',
+                  path: '/dashboardcity/dashboardsummary',
+                  component: './dashboardcity/DashboardSummary',
+                },
+                {
+                  name: '类别',
+                  icon: 'smile',
+                  path: '/dashboardcity/dashboardcategory',
+                  component: './dashboardcity/DashboardCategory',
+                },
+                {
+                  name: '工资',
+                  icon: 'smile',
+                  path: '/dashboardcity/dashboardsalary',
+                  component: './dashboardcity/DashboardSalary',
+                },
               ],
-            }, 
-            // {
+            }, // {
             //   path: '/form',
             //   icon: 'form',
             //   name: 'form',
