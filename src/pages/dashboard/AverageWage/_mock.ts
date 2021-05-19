@@ -24,7 +24,7 @@ for (let i = 0; i < fakeY2.length; i += 1) {
 
 const salesData = [
  
-{ x: '采矿业333',
+{ x: '采矿业',
   y: 81.3,
 },
 {
@@ -52,7 +52,7 @@ const salesData = [
   y: 71.1,
 },
 {
-  x: '交通运输1、仓储和邮政业',
+  x: '交通运输、仓储和邮政业',
   y: 93.6,
 },
 {
@@ -244,5 +244,5 @@ const getFakeChartData: AnalysisData = {
 };
 
 export default {
-  'GET  /api/fake_chart_data': getFakeChartData,
+  'GET  /api/fake_chart_data_average': getFakeChartData,
 };

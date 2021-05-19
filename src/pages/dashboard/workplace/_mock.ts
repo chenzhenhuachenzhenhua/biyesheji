@@ -52,7 +52,7 @@ const salesData = [
     y: 24.7,
   },
   {
-    x: '交通运输1、仓储和邮政业',
+    x: '交通运输、仓储和邮政业',
     y: 21.1,
   },
   {
@@ -801,19 +801,6 @@ export default {
     salesTypeDataOnline,
     salesTypeDataOffline,
     radarData,
-  },
-  'GET  /api/fake_chart_data_average': {
-    visitData,
-    visitData2,
-    salesData,
-    searchData,
-    offlineData,
-    offlineChartData,
-    salesTypeData,
-    salesTypeDataOnline,
-    salesTypeDataOffline,
-    radarData,
-    averageWageData
   },
 
   'GET  /api/currentUser': {
