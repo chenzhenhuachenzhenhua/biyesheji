@@ -135,6 +135,35 @@ export default defineConfig({
                   component: './dashboardcity/DashboardSalary',
                 },
               ],
+            },
+            {
+              path: '/dashboardjob',
+              name: 'IndustryOverview',
+              icon: 'dashboard',
+              routes: [
+                {
+                  path: '/',
+                  redirect: '/dashboard/dashboardindustry',
+                },
+                {
+                  name: 'Industry',
+                  icon: 'smile',
+                  path: '/dashboardjob/dashboardmonitor',
+                  component: './dashoboardjob/DashboardMonitor',
+                },
+                {
+                  name: 'IndustryCategory',
+                  icon: 'smile',
+                  path: '/dashboardjob/dashboardindustry',
+                  component: './dashoboardjob/DashboardIndustry',
+                },
+                {
+                  name: 'IndustryAvergae',
+                  icon: 'smile',
+                  path: '/dashboardjob/dashboardaverage',
+                  component: './dashoboardjob/DashboardAverage',
+                },
+              ],
             }, // {
             //   path: '/form',
             //   icon: 'form',

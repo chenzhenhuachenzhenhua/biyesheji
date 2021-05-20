@@ -58,4 +58,10 @@ export default {
   'menu.CityOverview.Summary': '山西省各市区就业概述',
   'menu.CityOverview.Category': '山西省各市区就业类别情况',
   'menu.CityOverview.Salary': '山西省各市区就业平均工资情况',
+  'menu.IndustryOverview': '山西省各行业情况',
+  'menu.IndustryOverview.Industry': '山西省各行业就业概述',
+  'menu.IndustryOverview.IndustryCategory': '山西省各行业就业类别情况',
+  'menu.IndustryOverview.IndustryAvergae': '山西省各行业就业工资情况',
+  
+  
 };

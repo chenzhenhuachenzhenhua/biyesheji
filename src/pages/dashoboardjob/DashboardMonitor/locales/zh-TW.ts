@@ -1,0 +1,18 @@
+export default {
+  'dashoboardjobanddashboardmonitor.monitor.trading-activity': '活動實時交易情況',
+  'dashoboardjobanddashboardmonitor.monitor.total-transactions': '今日交易總額',
+  'dashoboardjobanddashboardmonitor.monitor.sales-target': '銷售目標完成率',
+  'dashoboardjobanddashboardmonitor.monitor.remaining-time': '活動剩余時間',
+  'dashoboardjobanddashboardmonitor.monitor.total-transactions-per-second': '每秒交易總額',
+  'dashoboardjobanddashboardmonitor.monitor.activity-forecast': '活動情況預測',
+  'dashoboardjobanddashboardmonitor.monitor.efficiency': '券核效率',
+  'dashoboardjobanddashboardmonitor.monitor.ratio': '跳出率',
+  'dashoboardjobanddashboardmonitor.monitor.proportion-per-category': '各品類占比',
+  'dashoboardjobanddashboardmonitor.monitor.fast-food': '中式快餐',
+  'dashoboardjobanddashboardmonitor.monitor.western-food': '西餐',
+  'dashoboardjobanddashboardmonitor.monitor.hot-pot': '火鍋',
+  'dashoboardjobanddashboardmonitor.monitor.waiting-for-implementation': 'Waiting for implementation',
+  'dashoboardjobanddashboardmonitor.monitor.popular-searches': '熱門搜索',
+  'dashoboardjobanddashboardmonitor.monitor.resource-surplus': '資源剩余',
+  'dashoboardjobanddashboardmonitor.monitor.fund-surplus': '補貼資金剩余',
+};
