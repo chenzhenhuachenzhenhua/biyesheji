@@ -223,13 +223,14 @@ const salesTypeData = [
     y: 498591,
   },
   {
-    x: '民间非营利组织',
+    x: '民间组织',
     y: 66689,
   },
   {
     x: '其他',
     y: 4702,
   },
+  
 ];
 
 const salesTypeDataOnline = [
@@ -246,7 +247,7 @@ const salesTypeDataOnline = [
     y: 471324,
   },
   {
-    x: '民间非营利组织',
+    x: '民间组织',
     y: 6391,
   },
   {

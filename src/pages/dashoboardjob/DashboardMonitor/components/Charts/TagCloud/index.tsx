@@ -140,7 +140,7 @@ class TagCloud extends Component<TagCloudProps, TagCloudState> {
         },
         fontSize(d: { value: number }) {
           const size = ((d.value - min) / (max - min)) ** 2;
-          return size * (17.5 - 5) + 5;
+          return size * (17.5 - 5) + 20;
         },
       });
 

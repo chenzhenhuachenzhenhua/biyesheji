@@ -60,9 +60,9 @@ const ProportionSales = ({
       <Pie
         hasLegend
         subTitle={<FormattedMessage id="dashboardandcategory.analysis.sales" defaultMessage="Sales" />}
-        total={() => <Yuan>{salesPieData.reduce((pre, now) => now.y + pre, 0)}</Yuan>}
+        total={() => <div>{salesPieData.reduce((pre, now) => now.y + pre, 0)}</div>}
         data={salesPieData}
-        valueFormat={(value) => <Yuan>{value}</Yuan>}
+        valueFormat={(value) => <div>{value}</div>}
         height={248}
         lineWidth={4}
       />
