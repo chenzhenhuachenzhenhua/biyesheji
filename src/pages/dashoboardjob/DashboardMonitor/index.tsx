@@ -34,7 +34,7 @@ class DashboardMonitor extends Component<DashboardMonitorProps> {
     return (
       <GridContent>
         <React.Fragment>
-          <Row gutter={24}>
+          {/* <Row gutter={24}>
             <Col xl={18} lg={24} md={24} sm={24} xs={24} style={{ marginBottom: 24 }}>
               <Card
                 title={
@@ -133,9 +133,9 @@ class DashboardMonitor extends Component<DashboardMonitorProps> {
                 />
               </Card>
             </Col>
-          </Row>
+          </Row> */}
           <Row gutter={24}>
-            <Col xl={12} lg={24} sm={24} xs={24} style={{ marginBottom: 24 }}>
+            {/* <Col xl={12} lg={24} sm={24} xs={24} style={{ marginBottom: 24 }}>
               <Card
                 title={
                   <FormattedMessage
@@ -196,8 +196,8 @@ class DashboardMonitor extends Component<DashboardMonitorProps> {
                   </Col>
                 </Row>
               </Card>
-            </Col>
-            <Col xl={6} lg={12} sm={24} xs={24} style={{ marginBottom: 24 }}>
+            </Col> */}
+            <Col xl={24} lg={24} sm={24} xs={24} style={{ marginBottom: 24 }}>
               <Card
                 title={
                   <FormattedMessage
@@ -209,10 +209,10 @@ class DashboardMonitor extends Component<DashboardMonitorProps> {
                 bordered={false}
                 bodyStyle={{ overflow: 'hidden' }}
               >
-                <TagCloud data={tags || []} height={161} />
+                <TagCloud data={tags || []} height={461} />
               </Card>
             </Col>
-            <Col xl={6} lg={12} sm={24} xs={24} style={{ marginBottom: 24 }}>
+            {/* <Col xl={6} lg={12} sm={24} xs={24} style={{ marginBottom: 24 }}>
               <Card
                 title={
                   <FormattedMessage
@@ -234,7 +234,7 @@ class DashboardMonitor extends Component<DashboardMonitorProps> {
                   percent={34}
                 />
               </Card>
-            </Col>
+            </Col> */}
           </Row>
         </React.Fragment>
       </GridContent>

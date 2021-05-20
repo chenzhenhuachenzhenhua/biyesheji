@@ -1,5 +1,5 @@
 import { EllipsisOutlined } from '@ant-design/icons';
-import { Col, Dropdown, Menu, Row } from 'antd';
+import { Card,Col, Dropdown, Menu, Row } from 'antd';
 import React, { Component } from 'react';
 import { GridContent } from '@ant-design/pro-layout';
 import type { RadioChangeEvent } from 'antd/es/radio';
@@ -12,7 +12,7 @@ import SalesCard from './components/SalesCard';
 import TopSearch from './components/TopSearch';
 import ProportionSales from './components/ProportionSales';
 import OfflineData from './components/OfflineData';
-
+import { Line } from '@ant-design/charts';
 import { getTimeDistance } from './utils/utils';
 import type { AnalysisData } from './data.d';
 import styles from './style.less';
@@ -154,6 +154,22 @@ class DashboardSummary extends Component<
     );
 
     const activeKey = currentTabKey || (offlineData[0] && offlineData[0].name);
+    const config = {
+      data: offlineChartData,
+      xField: 'year',
+      yField: 'value',
+      seriesField: 'category',
+      xAxis: { type: 'time' },
+      // yAxis: {
+      //   label: {
+      //     formatter: function formatter(v) {
+      //       return ''.concat(v).replace(/\d{1,3}(?=(\d{3})+$)/g, function (s) {
+      //         return ''.concat(s, ',');
+      //       });
+      //     },
+      //   },
+      // },
+    };
     return (
       <GridContent>
         <React.Fragment>
@@ -197,6 +213,9 @@ class DashboardSummary extends Component<
             offlineChartData={offlineChartData}
             handleTabChange={this.handleTabChange}
           />
+            <Card  title="山西省就业情况概述" bordered={true} style={{ marginTop: 24 }}>
+          <Line {...config} />
+          </Card>
         </React.Fragment>
       </GridContent>
     );

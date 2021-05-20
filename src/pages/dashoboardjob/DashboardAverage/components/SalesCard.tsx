@@ -75,7 +75,7 @@ const SalesCard = ({
       <Tabs
         tabBarExtraContent={
           <div className={styles.salesExtraWrap}>
-            <div className={styles.salesExtra}>
+            {/* <div className={styles.salesExtra}>
               <a className={isActive('today')} onClick={() => selectDate('today')}>
                 <FormattedMessage id="dashoboardjobanddashboardaverage.analysis.all-day" defaultMessage="All Day" />
               </a>
@@ -93,7 +93,7 @@ const SalesCard = ({
               value={rangePickerValue}
               onChange={handleRangePickerChange}
               style={{ width: 256 }}
-            />
+            /> */}
           </div>
         }
         size="large"
@@ -104,7 +104,7 @@ const SalesCard = ({
           key="sales"
         >
           <Row>
-            <Col xl={16} lg={12} md={12} sm={24} xs={24}>
+            <Col xl={24} lg={24} md={24} sm={24} xs={24}>
               <div className={styles.salesBar}>
                 <Bar
                   height={295}
@@ -118,7 +118,7 @@ const SalesCard = ({
                 />
               </div>
             </Col>
-            <Col xl={8} lg={12} md={12} sm={24} xs={24}>
+            <Col xl={24} lg={24} md={24} sm={24} xs={24}>
               <div className={styles.salesRank}>
                 <h4 className={styles.rankingTitle}>
                   <FormattedMessage
@@ -145,7 +145,7 @@ const SalesCard = ({
             </Col>
           </Row>
         </TabPane>
-        <TabPane
+        {/* <TabPane
           tab={<FormattedMessage id="dashoboardjobanddashboardaverage.analysis.visits" defaultMessage="Visits" />}
           key="views"
         >
@@ -188,7 +188,7 @@ const SalesCard = ({
               </div>
             </Col>
           </Row>
-        </TabPane>
+        </TabPane> */}
       </Tabs>
     </div>
   </Card>

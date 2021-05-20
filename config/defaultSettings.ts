@@ -5,7 +5,7 @@ type DefaultSettings = Partial<ProSettings> & {
 };
 
 const proSettings: DefaultSettings = {
-  navTheme: 'light',
+  navTheme: 'realDark',
   // 拂晓蓝
   primaryColor: '#0d64aa',
   layout: 'side',
@@ -13,7 +13,7 @@ const proSettings: DefaultSettings = {
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: '任嘉敏毕业设计',
+  title: '山西省就业数据',
   pwa: false,
   iconfontUrl: '',
 };

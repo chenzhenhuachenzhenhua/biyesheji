@@ -157,7 +157,7 @@ class DashboardAverage extends Component<
     return (
       <GridContent>
         <React.Fragment>
-          <IntroduceRow loading={loading} visitData={visitData} />
+          {/* <IntroduceRow loading={loading} visitData={visitData} /> */}
           <SalesCard
             rangePickerValue={rangePickerValue}
             salesData={salesData}
@@ -166,7 +166,7 @@ class DashboardAverage extends Component<
             loading={loading}
             selectDate={this.selectDate}
           />
-          <Row
+          {/* <Row
             gutter={24}
             style={{
               marginTop: 24,
@@ -189,14 +189,14 @@ class DashboardAverage extends Component<
                 handleChangeSalesType={this.handleChangeSalesType}
               />
             </Col>
-          </Row>
-          <OfflineData
+          </Row> */}
+          {/* <OfflineData
             activeKey={activeKey}
             loading={loading}
             offlineData={offlineData}
             offlineChartData={offlineChartData}
             handleTabChange={this.handleTabChange}
-          />
+          /> */}
         </React.Fragment>
       </GridContent>
     );
