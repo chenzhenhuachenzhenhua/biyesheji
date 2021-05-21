@@ -168,14 +168,33 @@ offlineData.push({
   cvr: 0.079,
 });
 }
-const offlineChartData = [];
-for (let i = 0; i < 20; i += 1) {
-  offlineChartData.push({
-    x: new Date().getTime() + 1000 * 60 * 30 * i,
-    y1: Math.floor(Math.random() * 100) + 10,
-    y2: Math.floor(Math.random() * 100) + 10,
-  });
-}
+// const offlineChartData = [];
+// for (let i = 0; i < 20; i += 1) {
+//   offlineChartData.push({
+//     x: new Date().getTime() + 1000 * 60 * 30 * i,
+//     y1: Math.floor(Math.random() * 100) + 10,
+//     y2: Math.floor(Math.random() * 100) + 10,
+//   });
+// }
+const offlineChartData = [
+  {
+    "year": "2019",
+    "value": 10.1,
+    "category": "太原市就业人员数（十万人）"
+  },
+  {
+    "year": "2019",
+    "value": 42.6,
+    "category": "城镇单位就业人员数（十万人）"
+  },
+  
+  {
+    "year": "2010",
+    "value": 25.5,
+    "category": "城镇就业人员平均工资（千元）"
+  }
+]
+
 
 const radarOriginData = [
   {

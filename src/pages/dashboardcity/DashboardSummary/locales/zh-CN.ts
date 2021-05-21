@@ -10,7 +10,7 @@ export default {
   'dashboardcityanddashboardsummary.analysis.week': '周同比',
   'dashboardcityanddashboardsummary.analysis.day': '日同比',
   'dashboardcityanddashboardsummary.analysis.payments': '支付笔数',
-  'dashboardcityanddashboardsummary.analysis.conversion-rate': '转化率',
+  'dashboardcityanddashboardsummary.analysis.conversion-rate': '就业率',
   'dashboardcityanddashboardsummary.analysis.operational-effect': '运营活动效果',
   'dashboardcityanddashboardsummary.analysis.sales-trend': '销售趋势',
   'dashboardcityanddashboardsummary.analysis.sales-ranking': '门店销售额排名',

@@ -213,7 +213,7 @@ class DashboardSummary extends Component<
             offlineChartData={offlineChartData}
             handleTabChange={this.handleTabChange}
           />
-            <Card  title="山西省就业情况概述" bordered={true} style={{ marginTop: 24 }}>
+            <Card  title="各市就业情况" bordered={true} style={{ marginTop: 24 }}>
           <Line {...config} />
           </Card>
         </React.Fragment>
